@@ -1,0 +1,5 @@
+function setup(){
+		createCanvas(1000,1000)
+		background(100,200,0)
+		point(50,50)
+		rect(70,70,200,100)}

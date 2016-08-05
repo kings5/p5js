@@ -1,0 +1,16 @@
+var xSpeed=10;
+var xPos=10;
+function setup(){
+    createCanvas(1000,1000)
+ }
+ function draw(){
+     background(20,200,100);
+     ellipse(xPos,100,50,50);
+     xPos=xPos+xSpeed;
+   if(xPos>=width){
+   xSpeed*=-1;
+ }
+  if(xPos<=0){
+  xSpeed*=-1;
+  }
+  }
